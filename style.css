@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3F3F3;
+    font-family: Arial, sans-serif;
+}
+
+.Landing-page {
+    height: 100vh;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+    flex-wrap: wrap;
+}
+
+nav .nav-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo img {
+    height: 50px; 
+    width: 50px;
+    transform: rotate(45deg);
+
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links ul li a:hover {
+    background-color: #b9ff66;
+}
+
+.btn {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-left: 30px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 80px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.header-details {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    gap: 30px;
+    max-width: 500px;
+}
+
+.header-details a{
+    margin-left: 0px;
+    width: 50%; 
+    padding: 10px 30px;
+}
+
+#header-btn{
+    background-color: black;
+    color: white;
+}
+
+.header-details h1 {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: black;
+}
+
+.header-details p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.header-img img {
+    height: 450px;
+    max-width: 500px;
+    object-fit: contain;
+}
